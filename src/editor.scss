@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-cta-image-overlay-and-text {
+	border: 1px dotted #f00;
+}
+.cta-container {
+	position: relative;
+	padding: 10px 20px;
+	width: 780px;
+
+	.cta-overlay {
+		position: absolute;
+		inset: 0px;
+	}
+
+	* {
+		position: relative;
+		z-index: 1;
+	}
+}
+
+.media-container{
+	button{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 10px;
+	}
+}
